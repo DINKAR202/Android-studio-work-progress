@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { View, Text, Switch, TouchableOpacity } from 'react-native';
 
 export default function App() {
-  const [darkTheme, setDarkTheme] = useState(true);
-  const [result, setResult] = useState('1233');
+  const [darkTheme, setDarkTheme] = useState(false);
+  const [result, setResult] = useState('');
 
   const colors = {
     dark: '#22252D',
