@@ -1,12 +1,19 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
 
 const NavBar = () => {
   return (
     <View>
-      <Text style={{fontSize: 45, color:'green'}}>I'm from NavBar Section.</Text>
+      <Text style={styles.text}>I'm from NavBar Section.</Text>
     </View>
   );
 };
+
+const styles=StyleSheet.create({
+        text:{
+            fontSize: 45,
+            color:'green',
+        }
+})
 
 export default NavBar;
