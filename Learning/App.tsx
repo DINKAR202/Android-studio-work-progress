@@ -7,7 +7,7 @@ const App = () => {
     <View>
       <NavBar />
       <Text style={{fontSize: 40}}>Hi</Text>
-      <Button title="press here" />
+      <Button title="press here and click this button" />
     </View>
   );
 };
