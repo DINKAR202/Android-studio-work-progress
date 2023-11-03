@@ -1,15 +1,17 @@
-import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import React from 'react';
+import {View, Text, Button} from 'react-native';
+import NavBar from './Components/NavBar';
 
-class App extends Component {
-  render()
-  {
-    return (
-      <View>
-        <Text>Hi there</Text>
-      </View>
-    );
-  }
-};
+const App = () => {
+  return(
+    <View>
+        <NavBar/>
+      <Text style={{fontSize:40}}>
+        Hi
+      </Text>
+      <Button title='press here' />
+    </View>
+  )
+}
 
 export default App;
