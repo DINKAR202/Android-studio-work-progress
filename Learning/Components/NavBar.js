@@ -11,7 +11,7 @@ const NavBar = () => {
 
 const styles=StyleSheet.create({
         text:{
-            fontSize: 45,
+            fontSize: 40,
             color:'green',
         }
 })
