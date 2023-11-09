@@ -9,7 +9,7 @@ const App = () => {
       <View style={{flex:1, backgroundColor:'green'}}></View>
       <View style={{flex:1, backgroundColor:'blue'}}></View>
       {/* <NavBar /> */}
-      {/* <Text style={styles.heading}>Hi</Text> */}
+      <Text style={styles.heading}>Hi</Text>
       <Button title="Don't press here" />
 
     </View>
