@@ -4,7 +4,7 @@ import NavBar from './Components/NavBar';
 
 const App = () => {
   return (
-    <View style={{flex:1}}>
+    <View style={{flex:6}}>
       <View style={{flex:2, backgroundColor:'red'}}></View>
       <View style={{flex:1, backgroundColor:'green'}}></View>
       <View style={{flex:1, backgroundColor:'blue'}}></View>
